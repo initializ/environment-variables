@@ -22,7 +22,7 @@ import (
 	"github.com/paketo-buildpacks/libpak"
 	"github.com/paketo-buildpacks/libpak/bard"
 
-	"github.com/paketo-buildpacks/environment-variables/v4/env"
+	"github.com/initializ/environment-variables/v4/env"
 )
 
 func main() {

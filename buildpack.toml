@@ -16,8 +16,8 @@ api = "0.7"
 
 [buildpack]
   description = "A Cloud Native Buildpack that embeds environment variables into an image"
-  homepage = "https://github.com/paketo-buildpacks/environment-variables"
-  id = "paketo-buildpacks/environment-variables"
+  homepage = "https://github.com/initializ/environment-variables"
+  id = "initializ/environment-variables"
   keywords = ["environment-variables", "configuration"]
   name = "Paketo Buildpack for Environment Variables"
   version = "{{.version}}"
@@ -25,7 +25,7 @@ api = "0.7"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
-    uri = "https://github.com/paketo-buildpacks/environment-variables/blob/main/LICENSE"
+    uri = "https://github.com/initializ/environment-variables/blob/main/LICENSE"
 
 [metadata]
   include-files = ["LICENSE", "NOTICE", "README.md", "bin/build", "bin/detect", "bin/main", "buildpack.toml"]
