@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/environment-variables/v4
+module github.com/initializ/environment-variables/v4
 
 go 1.20
 
